@@ -4,28 +4,234 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Shop</title>
-    <link rel="stylesheet" href="styles.css">
+    <title >Mobile shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-        <div class="header">
-            <nav>
-                <a href="index.html"><img src="slike/logo.jpg" alt=""></a>
-                
-                <div class="nav-links">
-                    <ul>
-
-                        <li><a href="">POCETNA</a></li>
-                        <li><a href="">PONUDA</a></li>
-                        <li><a href="">KONTAKT</a></li>
-
-                    </ul>
-                </div>
-            </nav>
-            
-        </div>
     
+
+    <section id="header" class="header">
+        <a href="#" class="logo"></i> Mobile shop </a>
+        <nav class="navbar">
+            <a href="#home">HOME</a> 
+            <a href="#onama">KONTAKTI</a> 
+            <a href="#shop">SHOP</a>  
+      
+        </nav>
+        
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+           
+           
+        </div>
+        </section>
+        
+        
+        
+        <section class="home" id="home">
+        
+            <div class="slide active" style="background:url(https://images-ext-1.discordapp.net/external/WSRZRrieCRhjh_-s1A6y2kPv0ehNGXI3gOTOGQGapOA/https/images.samsung.com/hr/smartphones/galaxy-s21/buy/02_ImageCarousel/04_GroupShot-O1/S21_Group_KV_MO_img.jpg?width=473&height=473) no-repeat; background-size:cover; 
+            background-position: center;">
+            <div class="content">
+                <span>NAJBOLJI ODABIR<br> TELEFONA</span>
+                <h3>"Ukoliko ste fan samsunga ovo je pravo mjesto za vas</h3>
+                 <a href="#" class="btn">Pročitaj više</a>  
+            </div>
+            </div>
+        
+            <div class="slide" style="background:url(https://geektech.me/wp-content/uploads/2021/01/85d1b4f31aeb722927c1a8232ab80ceb.jpg) no-repeat; background-size:cover; 
+            background-position: center;">
+            <div class="content">
+                <span>NAJBOLJI ODABIR<br> TELEFONA</span>
+                <h3>"Iphone.DOvoljno je samo to reći."
+         </h3>
+                   <a href="#" class="btn">Pročitaj više</a>
+            </div>
+            </div>
+        
+            <div class="slide" style="background:url(https://images-ext-2.discordapp.net/external/-qvzYakDlyGPYWmfgKCVvUM7SzUN0gr6OjXEgK5ddeA/https/www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Untitled8872.jpg?width=644&height=473) no-repeat; background-size:cover; 
+            background-position: center;">
+            <div class="content">
+                <span>NAJBOLJI ODABIR<br> TELEFONA</span>
+                <h3>"Xiaomi najbolji odnos cijene i kvaliteta 
+         </h3>
+                   <a href="#" class="btn">Pročitaj više</a>  
+            </div>
+            </div>
+             
+            <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+            <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+            
+        </section>
+
+<section class="shop" id="shop">
+    <h1 class="heading"> <span>SHOP</span></h1>
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="img">
+                <img src="img/iphone.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Iphone 12 Pro Max - 256GB , 6.7"</h3>
+                <div class="price">2000 KM</div>
+                <a href="#" class="btn">KUPI</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img src="img/samsung.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Samsung galaxy S21 5G - 6.2"</h3>
+                <div class="price">1600 KM</div>
+                <a href="#" class="btn">KUPI</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img src="img/xiaomi.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Xiaomi redmi note 12 5G - 6.6"</h3>
+                <div class="price">1400 KM</div>
+                <a href="#" class="btn">KUPI</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img src="img/oppo.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Oppo F21 Pro 5G - 6.4"</h3>
+                <div class="price">600 KM</div>
+                <a href="#" class="btn">KUPI</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img src="img/huawei.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Huawei p50 pro 5G - 6.5" </h3>
+                <div class="price">1500 KM</div>
+                <a href="#" class="btn">KUPI</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img src="img/poco.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Pocco M4 pro 5G - 6.3"</h3>
+                <div class="price">500 KM</div>
+                <a href="#" class="btn">KUPI</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section>
+
+
+                    <h1 class="heading"> <span>KONTAKTI</span></h1>
+                    <footer class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="footer-col">
+                                    <h4>Telefon</h4>
+                                    <ul>
+                                        <li><a href="#">+387603125888</a></li>
+                                        <li><a href="#">+387625551444</a></li>
+                                        <li><a href="#">+387614488999</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="footer-col">
+                                    <h4>email</h4>
+                                    <ul>
+                                        <li><a href="#">mobi-shop@gmail.com</a></li>
+                                        <li><a href="#">kupimobitel@yahoo.com</a></li>
+                                        <li><a href="#">JAVITE SE </a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="footer-col">
+                                    <h4>shop</h4>
+                                    <ul>
+                                        <li><a href="#">Najbolja trgovina telefonima</a></li>
+                                        <li><a href="#">Pronadjite nas na lokaciji nepostojeca.38A</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer-col">
+                                    <h4>Zapratite nas</h4>
+                                    <div class="social-links">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </footer>
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+<script src="script.js"></script>
+
+
 </body>
 </html>
-
